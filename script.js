@@ -42,7 +42,11 @@ function add3Guest() {
 }
 
 function newGame() {
-
+    homeScore = 0
+    homeScoreEl.textContent = "0"
+    guestScore = 0
+    guestScoreEl.textContent = "0"
+    highlightWinner()
 }
 
 function highlightWinner() {
