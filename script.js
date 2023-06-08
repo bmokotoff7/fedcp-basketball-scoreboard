@@ -51,16 +51,16 @@ function newGame() {
 
 function highlightWinner() {
     if (homeScore == guestScore) {
-        homeScoreboard.style.border = "5px solid white"
-        guestScoreboard.style.border = "5px solid white"
+        homeScoreboard.style.border = "6px solid #111827"
+        guestScoreboard.style.border = "6px solid #111827"
     }
     else if (homeScore > guestScore) {
-        homeScoreboard.style.border = "5px solid lightgreen"
-        guestScoreboard.style.border = "5px solid white"
+        homeScoreboard.style.border = "6px solid #34D399"
+        guestScoreboard.style.border = "6px solid #111827"
     }
 
     else if (homeScore < guestScore) {
-        homeScoreboard.style.border = "5px solid white"
-        guestScoreboard.style.border = "5px solid lightgreen"
+        homeScoreboard.style.border = "6px solid #111827"
+        guestScoreboard.style.border = "6px solid #34D399"
     }
 }
