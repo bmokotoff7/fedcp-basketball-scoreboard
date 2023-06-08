@@ -1,8 +1,39 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    margin: 40px auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.scoreboard {
+    background: black;
+    width: 155px;
+    height: 120px;
+    color: red;
+    font-size: 30pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: none;
 }
